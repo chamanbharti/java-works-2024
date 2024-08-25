@@ -1,0 +1,22 @@
+myservice:
+  #My application constants/config properties starts from here
+  external-service-config:
+    payment_url: "http://localhost:8081/payment"
+    auth_url: "http://localhost:8083/auth"
+    login_url: "http://localhost:9999/login"
+  swagger-config:
+    title: "Dummy Service APIs"
+    description: "Rest API's for dummy Service"
+    version: "version-1"
+  redis-config:
+    host: localhost
+    port: 6379
+  rollbar-config:
+    access_token: "3egfhcd2c0978888hhh9b0bcdc445"
+    environment: "local"
+  aws-config:
+    access_key: MKIKAINKTWT123345898
+    secret_key: LMdhahdj777/jjijkajdk7
+    bucket_region: ap-south-1
+    cloud_folder: uploads/local
+#ends here
