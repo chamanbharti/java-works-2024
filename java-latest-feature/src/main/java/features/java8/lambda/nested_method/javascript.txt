@@ -1,0 +1,24 @@
+in js
+function outerFunction() {
+    const outerVariable = "I'm from the outer function!";
+
+    function innerFunction() {
+        console.log(outerVariable); // Accessing outer variable
+    }
+
+    innerFunction(); // Call the inner function
+}
+
+outerFunction();
+
+in python
+def outer_function():
+    outer_variable = "I'm from the outer function!"
+
+    def inner_function():
+        print(outer_variable)  # Accessing outer variable
+
+    inner_function()  # Call the inner function
+
+outer_function()
+
